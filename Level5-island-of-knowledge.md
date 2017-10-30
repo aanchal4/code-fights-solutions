@@ -34,7 +34,7 @@ def areEquallyStrong(yourLeft, yourRight, friendsLeft, friendsRight):
         return True
     else:
         return False
-        
+ ```       
     
       
 ## Test 2
@@ -45,12 +45,11 @@ For inputArray = [2, 4, 1, 0], the output should be arrayMaximalAdjacentDifferen
 
 **Input/Output**
 
-    * [time limit] 4000ms (py3)
+ * [time limit] 4000ms (py3)
 
-    * [input] array.integer inputArray. Guaranteed constraints: 3 ≤ inputArray.length ≤ 10, -15 ≤ inputArray[i] ≤ 15.
+ * [input] array.integer inputArray. Guaranteed constraints: 3 ≤ inputArray.length ≤ 10, -15 ≤ inputArray[i] ≤ 15.
 
-    * [output] integer
-    The maximal absolute difference
+ * [output] integer. The maximal absolute difference
     
     ```python
     def arrayMaximalAdjacentDifference(inputArray):
