@@ -27,7 +27,6 @@ Given your and your friend's arms' lifting capabilities find out if you two are 
 
     * [output] boolean. true if you and your friend are equally strong, false otherwise.
 
-
 ```python
 def areEquallyStrong(yourLeft, yourRight, friendsLeft, friendsRight):
     if max(yourLeft, yourRight) == max(friendsLeft, friendsRight) and min(yourLeft, yourRight) == min(friendsLeft, friendsRight):
@@ -37,19 +36,19 @@ def areEquallyStrong(yourLeft, yourRight, friendsLeft, friendsRight):
  ```       
     
       
-## Test 2
+ ## Test 2
 Given an array of integers, find the maximal absolute difference between any two of its adjacent elements.
 
 **Example**
-      
+    
     For inputArray = [2, 4, 1, 0], the output should be arrayMaximalAdjacentDifference(inputArray) = 3.
 
 **Input/Output**
-    * [time limit] 4000ms (py3)
+   * [time limit] 4000ms (py3)
 
-    * [input] array.integer inputArray. Guaranteed constraints: 3 ≤ inputArray.length ≤ 10, -15 ≤ inputArray[i] ≤ 15.
+   * [input] array.integer inputArray. Guaranteed constraints: 3 ≤ inputArray.length ≤ 10, -15 ≤ inputArray[i] ≤ 15.
 
-    * [output] integer. The maximal absolute difference
+   * [output] integer. The maximal absolute difference
     
 ```python
     def arrayMaximalAdjacentDifference(inputArray):
@@ -60,7 +59,7 @@ Given an array of integers, find the maximal absolute difference between any two
     return max(y)
     ```
     
-## Test 3
+ ## Test 3
 An IP address is a numerical label assigned to each device (e.g., computer, printer) participating in a computer network that uses the Internet Protocol for communication. There are two versions of the Internet protocol, and thus two versions of addresses. One of them is the IPv4 address.
 IPv4 addresses are represented in dot-decimal notation, which consists of four decimal numbers, each ranging from 0 to 255 inclusive, separated by dots, e.g., 172.16.254.1.
 Given a string, find out if it satisfies the IPv4 address naming rules.
@@ -79,16 +78,15 @@ Given a string, find out if it satisfies the IPv4 address naming rules.
 
     There is no first number.
     
-  **Input/Output**
-  
-     * [time limit] 4000ms (py)
+**Input/Output**
+  * [time limit] 4000ms (py)
 
-     * [input] string inputString. Guaranteed constraints: 1 ≤ inputString.length ≤ 30.
+  * [input] string inputString. Guaranteed constraints: 1 ≤ inputString.length ≤ 30.
 
-     * [output] boolean
+  * [output] boolean
       true if inputString satisfies the IPv4 address naming rules, false otherwise.
       
- ```python 
+```python 
     def isIPv4Address(inputString):
     s=inputString.split(".")
     if len(s)!=4:
