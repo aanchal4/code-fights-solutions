@@ -41,16 +41,15 @@ def areEquallyStrong(yourLeft, yourRight, friendsLeft, friendsRight):
 Given an array of integers, find the maximal absolute difference between any two of its adjacent elements.
 
 **Example**
-
+      
     For inputArray = [2, 4, 1, 0], the output should be arrayMaximalAdjacentDifference(inputArray) = 3.
 
 **Input/Output**
+    * [time limit] 4000ms (py3)
 
- * [time limit] 4000ms (py3)
+    * [input] array.integer inputArray. Guaranteed constraints: 3 ≤ inputArray.length ≤ 10, -15 ≤ inputArray[i] ≤ 15.
 
- * [input] array.integer inputArray. Guaranteed constraints: 3 ≤ inputArray.length ≤ 10, -15 ≤ inputArray[i] ≤ 15.
-
- * [output] integer. The maximal absolute difference
+    * [output] integer. The maximal absolute difference
     
     ```python
     def arrayMaximalAdjacentDifference(inputArray):
@@ -67,6 +66,7 @@ IPv4 addresses are represented in dot-decimal notation, which consists of four d
 Given a string, find out if it satisfies the IPv4 address naming rules.
 
 **Example**
+     
     For inputString = "172.16.254.1", the output should be
     isIPv4Address(inputString) = true;
 
@@ -81,16 +81,13 @@ Given a string, find out if it satisfies the IPv4 address naming rules.
     
   **Input/Output**
   
-    * [time limit] 4000ms (py)
+     * [time limit] 4000ms (py)
 
-    * [input] string inputString
+     * [input] string inputString. Guaranteed constraints: 1 ≤ inputString.length ≤ 30.
 
-    Guaranteed constraints:
-    1 ≤ inputString.length ≤ 30.
-
-    * [output] boolean
-
-    true if inputString satisfies the IPv4 address naming rules, false otherwise.
+     * [output] boolean
+      true if inputString satisfies the IPv4 address naming rules, false otherwise.
+      
     ```python 
     def isIPv4Address(inputString):
     s=inputString.split(".")
