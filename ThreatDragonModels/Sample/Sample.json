@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "title": "Sample",
+    "owner": "Aanchal",
+    "description": "Blah"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "something",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Aanchal"
+  }
+}
